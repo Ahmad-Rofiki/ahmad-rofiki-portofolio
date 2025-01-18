@@ -142,7 +142,7 @@ export default function Hero() {
             />
           </motion.div>
           <motion.div
-            className="absolute left-[320px] top-[70px]"
+            className="absolute left-[320px] top-[100px]"
             drag
             dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
           >
