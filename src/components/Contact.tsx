@@ -77,7 +77,7 @@ export default function Contacts() {
               type="email"
               name="email"
               id="email"
-              className="bg-white/20 w-96 h-20 mt-2 rounded-xl text-white/50"
+              className="bg-white/20 w-96 h-20 mt-2 rounded-xl text-white/50 p-5"
             />
             <form action="">
               <label htmlFor="">Message</label>
@@ -86,7 +86,7 @@ export default function Contacts() {
               type="text"
               name="text"
               id="text"
-              className="bg-white/20 w-96 h-20 mt-2 rounded-xl text-white/50"
+              className="bg-white/20 w-96 h-20 mt-2 rounded-xl text-white/50 p-5"
             />
           </div>
 
