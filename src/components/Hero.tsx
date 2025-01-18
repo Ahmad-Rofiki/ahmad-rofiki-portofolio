@@ -187,7 +187,7 @@ export default function Hero() {
                 <AiOutlineTikTok className="hover:-translate-y-5 duration-200 transition-all ease-in-out" />
               </Link>
             </div>
-            <p className="text-2xl mt-5">
+            <p className="text-xl mt-5 items-center text-center max-w-sm lg:text-4xl lg:max-w-xl">
               all social media that you can see, if you are interested
             </p>
           </div>
