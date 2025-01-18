@@ -45,12 +45,12 @@ const Navbars = () => {
       </div>
       <div
         onClick={toogleNav}
-        className="md:hidden absolute top-5 right-14 border border-teal-400 z-50 text-white/70 p-2"
+        className="md:hidden absolute top-5 right-14 border border-white z-50 text-white/70 p-2"
       >
         {nav ? (
-          <AiOutlineClose size={30} className="text-teal-400" />
+          <AiOutlineClose size={20} className="text-white" />
         ) : (
-          <AiOutlineMenu size={30} className="text-teal-400" />
+          <AiOutlineMenu size={20} className="text-white" />
         )}
       </div>
       <div
