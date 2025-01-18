@@ -120,10 +120,10 @@ export default function Hero() {
             viewport={{ once: true }}
             className="  md:text-6xl text-4xl leading-tight font-bold  text-white/70 "
           >
-            IM{" "}
+            IM
             <span className="hover:text-violet-400 duration-500 transition-all ease-in-out ">
               TIYAZ
-            </span>
+            </span>{" "}
             KURNIASIH
           </motion.h1>
 
