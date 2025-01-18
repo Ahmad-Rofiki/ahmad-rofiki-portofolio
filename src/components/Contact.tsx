@@ -69,31 +69,27 @@ export default function Contacts() {
             leave me a message
           </h1>
 
-          <div className="flex justify-center items-center gap-10">
-            <div className="flex  justify-center items-center text-center flex-col">
-              <form action="">
-                <label htmlFor="">Email</label>
-              </form>
-              <input
-                type="text"
-                name=""
-                id=""
-                className="bg-white/20 w-96 h-20 mt-2 rounded-xl text-white/50"
-              />
-            </div>
-
-            <div className="flex  justify-center items-center text-center flex-col">
-              <form action="">
-                <label htmlFor="">Message</label>
-              </form>
-              <input
-                type="text"
-                name=""
-                id=""
-                className="bg-white/20 w-96 h-20 mt-2 rounded-xl text-white/50"
-              />
-            </div>
+          <div className="flex flex-col lg:flex-row items-center text-center gap-5 justify-center">
+            <form action="">
+              <label>Email</label>
+            </form>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              className="bg-white/20 w-96 h-20 mt-2 rounded-xl text-white/50"
+            />
+            <form action="">
+              <label htmlFor="">Message</label>
+            </form>
+            <input
+              type="text"
+              name="text"
+              id="text"
+              className="bg-white/20 w-96 h-20 mt-2 rounded-xl text-white/50"
+            />
           </div>
+
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
