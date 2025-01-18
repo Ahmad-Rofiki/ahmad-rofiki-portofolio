@@ -166,7 +166,8 @@ export default function Hero() {
               width={250}
               height={250}
               alt="profile"
-              className="rounded-full h-auto w-auto mx-auto"
+              className="rounded-full 
+              w-40 h-auto mx-auto"
             />
           </motion.div>
 
