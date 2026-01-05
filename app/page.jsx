@@ -200,9 +200,9 @@ export default function Portfolio() {
                 link: "https://boddington-villas.vercel.app",
               },
               {
-                title: "Modern Portfolio Website",
-                image: "/images/1.png",
-                link: "https://boddington-villas.vercel.app",
+                title: "Dream Store – Mini E-commerce Website",
+                image: "/images/2.png",
+                link: "https://dreams-store.vercel.app/",
               },
               {
                 title: "Booking Website UI",
